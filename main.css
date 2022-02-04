@@ -313,7 +313,6 @@ body {
   }
   .document__img {
     margin-left: 55px;
-    /* margin: 0 auto; */
   }
 
 }
@@ -333,8 +332,23 @@ body {
     width: 100%;
   }
   .document__img {
-    margin: 0;
+    width: 100%;
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 50px;
   }
-
+  .doucument > div {
+    padding: 0;
+  }
+  .main__link {
+    margin-bottom: 95px;
+  }
+  .document__title {
+   margin-bottom: 16px;
+  }
+  .document__text {
+   width: 100vw;
+   /* margin: 0 auto; */
+  }
 
 }

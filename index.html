@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="col.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header container">
+    <nav class="row between middle">
+      <div class="row middle">
+        <img class="header__sitelogo" src="img/logo.svg" alt="logo">
+        <p class="header__product">Product</p>
+      </div>
+      <div class="row">
+        <ul class="header__list" id="modal">
+          <li class="header__item"><a class="header__link active" href="#">Product</a></li>
+          <li class="header__item"><a class="header__link" href="#">Customers</a></li>
+          <li class="header__item"><a class="header__link" href="#">Pricing</a></li>
+          <li class="header__item"><a class="header__link" href="#">Resources</a></li>
+          <li class="header__item"><a class="header__link active sign" href="#">Sign In</a></li>
+          <li class="header__item"><a class="header__link btnheader" href="#">Sign Up</a></li>
+          <li class="header__item"><a class="header__link" href="#"><i id="modebtn" class='bx bxs-adjust bx-rotate-180' style='color:#02897a'></i></a></li>
+          <li class="header__item" id="close"><a class="header__link" href="#"><i class='bx bx-x' style='color:#ffffff'></i></a></li>
+        </ul>
+        <div class="header__menubtn" >
+          <button id="open"><i class='bx bx-menu'></i></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="row between container middle hero">
+    <div>
+      <h1 class="hero__title">Work at the speed  of thought</h1>
+       <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+       <div class="between">
+         <a class="hero__link" href="#">Get started</a>
+         <a class="hero__active" href="#"><i class='bx bx-play' style='color:#02897a'></i>Watch the Video</a>
+       </div>
+    </div>
+    <div><img class="hero__img" src="img/amico.svg" alt="amico"></div>
+  </div>
+  <script src="./java.js"></script>
+</body>
+</html>

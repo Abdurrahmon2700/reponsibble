@@ -6,6 +6,7 @@
   --body-color: #fff;
   --primary-color: #fff;
   --text-color: #111517;
+  /* --bg-img-dark: url('../imgs/moon-regular-24.png'); */
   --box-bg-color: #ff0;
   --placeholder-color: #848484;
   --backgraung-color:#fff;
@@ -16,6 +17,7 @@
   --body-color:#1F2E35;
   --primary-color: #2B3844;
   --text-color: #fff;
+  /* --bg-img-dark: url('../imgs/sun-regular-24.png'); */
   --placeholder-color: #fff;
   --backgraung-color:#2B3844;
 }
@@ -44,9 +46,7 @@ body {
   color:var(--color-1);
   width: 122px;
   height: 28px;
-  font-weight: bold;
-  font-size: 30px;
-  margin: -20px 0 0 -35px;
+  margin: -20 0 0 -40p;
 }
 
 .active {
@@ -90,6 +90,7 @@ body {
   top: 30px;
   right: 0px;
   font-size: 30px;
+  color: var(--color-1);
 }
 .header__menubtn {
   padding: 15px;
@@ -97,7 +98,6 @@ body {
 }
 .hero {
   display: flex;
-  justify-content: space-between;
   padding: 120px 0 100px;
 }
 
@@ -176,15 +176,21 @@ body {
     flex-direction: column-reverse;
   }
   .hero__title {
-    width: 50vw;
+    width: 369px;
     text-align: center;
   }
   .hero__text {
     text-align: center;
-    width: 50vw;
+    width: 326px;
+    
   }
   .hero__img {
-    width: 50vw;
+    width: 338px;
+    height: 313px;
+    margin-top: 16px;
+  }
+  .hero__active {
+    width: 200px;
   }
 }
 

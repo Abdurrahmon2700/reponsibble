@@ -5,10 +5,11 @@
 }
 
 .container {
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
-  max-width: 1190px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 15px;
+  
 }
 
 .row {

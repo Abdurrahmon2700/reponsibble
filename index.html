@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="main.css">
   <title>Document</title>
 </head>
+
 <body>
   <div class="container">
     <header class="header">
@@ -24,27 +26,58 @@
             <li class="header__item"><a class="header__link" href="#">Resources</a></li>
             <li class="header__item"><a class="header__link active sign" href="#">Sign In</a></li>
             <li class="header__item"><a class="header__link btnheader" href="#">Sign Up</a></li>
-            <li class="header__item"><a class="header__link" href="#"><i id="modebtn" class='bx bxs-adjust bx-rotate-180' style='color:#02897a'></i></a></li>
-            <li class="header__item" id="close"><a class="header__link" href="#"><i class='bx bx-x' style='color:#ffffff'></i></a></li>
+            <li class="header__item"><a class="header__link" href="#"><i id="modebtn"
+                  class='bx bxs-adjust bx-rotate-180' style='color:#02897a'></i></a></li>
+            <li class="header__item" id="close"><a class="header__link" href="#"><i class='bx bx-x'
+                  style='color:#ffffff'></i></a></li>
           </ul>
-          <div class="header__menubtn" >
-            <button id="open"><i class='bx bx-menu'></i></button>
+          <div class="header__menubtn">
+            <button class="menu__btn" id="open"><i class='bx bx-menu'></i></button>
           </div>
         </div>
       </nav>
     </header>
-  </div>
-  <div class="row between container middle hero">
-    <div>
-      <h1 class="hero__title">Work at the speed  of thought</h1>
-       <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-       <div class="">
-         <a class="hero__link" href="#">Get started</a>
-         <a class="hero__active" href="#"><i class='bx bx-play' style='color:#02897a'></i>Watch the Video</a>
-       </div>
+    <div class="row between middle hero">
+      <div>
+        <h1 class="hero__title">Work at the speed of thought</h1>
+        <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way
+          to imagine your next user experience.</p>
+        <div class="hero__links">
+          <a class="hero__link" href="#">Get started</a>
+          <a class="hero__active" href="#"><i class='bx bx-play' style='color:#02897a'></i>Watch the Video</a>
+        </div>
+      </div>
+      <div>
+        <img class="hero__img" src="img/amico.svg" alt="amico">
+      </div>
     </div>
-    <div><img class="hero__img" src="img/amico.svg" alt="amico"></div>
+    <main class="main">
+        <h2 class="main__title"> Product was Built Specifically for You</h2>
+        <ul class="main__list">
+          <li class="main__item">
+            <img class="main__img" src="img/cursorr.svg" alt="cursor">
+            <h3 class="main__itemtitle">First click tests</h3>
+            <p class=" main__itemtext">While most people enjoy casino gambling,</p>
+          </li>
+          <li class="main__item">
+            <img class="main__img" src="img/cursorr.svg" alt="cursor">
+            <h3 class="main__itemtitle">Design surveys</h3>
+            <p class="main__itemtext">While most people enjoy casino gambling,</p>
+          </li>
+          <li class="main__item">
+            <img class="main__img" src="img/cursorr.svg" alt="cursor">
+            <h3 class="main__itemtitle">Preference tests</h3>
+            <p class="main__itemtext">While most people enjoy casino gambling,</p>
+          </li>
+          <li class="main__item">
+            <img class="main__img" src="img/cursorr.svg" alt="cursor">
+            <h3 class="main__itemtitle">Five second tests</h3>
+            <p class="main__itemtext">While most people enjoy casino gambling,</p>
+          </li>
+        </ul>
+    </main>
   </div>
   <script src="./java.js"></script>
 </body>
+
 </html>

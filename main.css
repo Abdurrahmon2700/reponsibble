@@ -262,8 +262,76 @@ body {
   height: 35px;
   top: 10px;
   padding-left: 30px;
+}
+
+.document__collabrative {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+}
+
+.process__title {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+  margin-bottom: 16px;
+}
+
+.process__text {
+  width: 542px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343D;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.user__info {
+  margin-right: 41px;
+}
+.user__info:nth-last-child(1) {
+  margin-left: 41px;
+}
+
+.user {
+  margin-bottom: 38px;
+}
+.user__images{
+  width: 98px;
+  height: 98px;
+}
+.user__block{
+  align-items: center;
+}
+
+
+.user__link {
+  margin-top: 50px;
+  background: #02897A;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 31px;
+  text-decoration: none;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 930px) {
 
@@ -358,6 +426,7 @@ body {
   .customer__easier {
   }
   .customer__support {
+    width: 100vw;
   }
   .customer__description {
     width: 80vw;
@@ -368,7 +437,26 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 720px) {
+  .customer__text {
+    width: 100vw;
+  }
+  
+  .customer__description {
+    width: 100vw;
+  }
 
   .main__title {
     width: 100%;
@@ -397,8 +485,35 @@ body {
     width: 50vw;
     margin: 0 auto;
   }
+  .document__collabrative {
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+    margin-bottom: 16px;
+  }
 
+  .user__block{
+    flex-direction: row-reverse;
+    
+
+  }
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
 
@@ -416,7 +531,6 @@ body {
   }
   .document__img {
     width: 80vw;
-    /* display: flex; */
     margin-left: 30px;
     margin-bottom: 50px;
   }
@@ -431,7 +545,15 @@ body {
   }
   .document__text {
    width: 100vw;
-   /* margin: 0 auto; */
+  }
+  .document__desc{
+    width: 100vw;
+  }
+  .customer__description {
+    width: 100vw;
+  }
+  .customer__text {
+    width: 100vw;
   }
   .hero__links {
     width: 50vw;

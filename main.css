@@ -316,18 +316,165 @@ body {
   color: #fff;
   padding: 15px 31px;
   text-decoration: none;
-
+  
+}
+.contact {
+  margin-bottom: 150px;
 }
 
+.contact__title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 51px;
+  margin-bottom: 8px;
+  color: #22343D;
+}
 
+.contact__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 33px;
+  color: #22343D;
+}
 
+.contact__item {
+  list-style-type: none;
+  width: 348px;
+  height: 359px;
+  background: #fff;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.contact__img {
+  width: 348px;
+  height: 186px;
+}
+.contact__textpart {
+  padding: 24px 30px 40px;
+}
+.contact__desctitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+.contact__desc{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
 
+.price{
+ 
+}
+.price__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  color: #22343D;
+  padding-top: 150px;
+  margin-bottom: 8px;
+}
+.price__text {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+.price__item {
+  text-align: center;
+  list-style-type: none;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  margin-bottom: 150px;
+}
 
+.table__title {
+  font-size: 24px;
+  margin: 24px 0px 8px;
+  columns: #000;
+}
+.table__desc {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
 
+.table__cost {
+  font-weight: bold;
+  font-size: 76px;
+  color: #02897A;
+}
+.table__months {
+  font-size: 16px;
+  color: #AFAFAF;
+  margin-bottom: 40px;
+}
+.table__text {
+  font-size: 16px;
+  color: #22343D;
+  margin-bottom: 16px; 
+}
 
+.table__link {
+  position: relative;
+  padding: 11px 19px;
+  color: #fff;
+  background: #02897A;
+  border-radius: 8px;
+  text-decoration: none;
+  top:50px
+  
+}
 
+.table-active {
+  width: 322.65px;
+  height: 456px;
+  background: #02897A;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
 
+.table__title-active {
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin: 24px 0px 8px;
+}
+.table__desc-active {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.table__cost-active {
+  font-weight: bold;
+  font-size: 76px;
+  color: #fff;
+}
+.table__months-active {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.table__text-active {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-bottom: 16px; 
+}
+.table__link-active {
+  position: relative;
+  padding: 11px 19px;
+  color: #02897A;
+  background: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  top:50px
+}
 
 
 
@@ -384,7 +531,7 @@ body {
   }
 
   .hero__img {
-    width: 80%;
+    width: 100vw;
     display: flex;
     margin: 0 auto;
     margin-top: 16px;
@@ -433,6 +580,20 @@ body {
   }
   .customer__text {
     width: 80vw;
+  }
+
+  .contact__text {
+    width: 100vw;
+  }
+
+  .contact__item {
+    width: 30vw;
+  }
+  .contact__img {
+    width: 30vw;
+  }
+  .price__item {
+    margin-bottom: 50px;
   }
 }
 
@@ -493,11 +654,30 @@ body {
   }
 
   .user__block{
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse
+  }
+  .process__text {
+    width: 100vw;
+  }
 
+  .contact__list {
+    display: flex;
+    justify-content:space-around;
   }
   
+  .contact__item {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+  .contact__img {
+    width: 100vw;
+  }
+
+  .price__item {
+    margin-bottom: 50px;
+  }
+
+
 }
 
 
@@ -559,6 +739,12 @@ body {
     width: 50vw;
     padding: 0;
     margin: 0 auto;
+  }
+  .price__item {
+    margin-bottom: 50px;
+  } 
+  .price__item {
+    margin-bottom: 20px;
   }
 
 }
